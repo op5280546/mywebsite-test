@@ -1,0 +1,142 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1f1e1e;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/*選單內容*/
+nav .menu-list {
+  position: sticky;
+  height: 100vh;
+  width: 300px;
+  background-color: #1A1818;
+  box-shadow: 0px 0px 2px white;
+  float: left;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+nav .menu-list ul, nav .menu-list li, nav .menu-list a {
+  background-color: #1A1818;
+}
+nav .menu-list ul {
+  list-style: none;
+}
+nav .menu-list ul li {
+  margin: 1rem;
+}
+nav .menu-list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+nav .menu-list ul li a.active {
+  color: rgb(138, 113, 66);
+}
+nav .menu-list div.socialmedia {
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
+  background-color: #1A1818;
+}
+nav .menu-list div.socialmedia img {
+  margin: 5px;
+  background-color: #1A1818;
+  width: 30px;
+}
+
+main div.text {
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main div.text h1 {
+  margin: 2rem;
+}
+main div.text p {
+  margin-left: 2rem;
+}
+main div.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main div.portfolio-container img {
+  margin: 2rem;
+  height: 15vw;
+  width: 15vw;
+  box-shadow: 0px 0px 1px white;
+  border-radius: 50%;
+}
+main div.portfolio-container a {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+main div.mypic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div.mypic img {
+  height: 23vw;
+  width: 15vw;
+  border-radius: 50%;
+  margin: 2rem;
+}
+main div.aboutmetitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div.aboutmetitle h2 {
+  color: white;
+}
+main div.aboutmetext {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+main div.aboutmetext p {
+  color: white;
+}
+main div.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+main div.contact h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+main div.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+}
+main div.contact form div {
+  margin: 1rem;
+}
+main div.contact form div label {
+  font-size: 1rem;
+}
+main div.contact form div input {
+  color: white;
+}
+main div.contact form div div.need {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
